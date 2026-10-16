@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================
+  Swiss DigiTech Solutions LLP — XML Sitemap
+  UPDATE the <loc> URLs below to match your actual domain
+  before pushing to GitHub / deploying on Netlify.
+  ============================================================ -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- HOME PAGE -->
+  <url>
+    <loc>https://swissdigitechsolutions.com/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ABOUT US PAGE -->
+  <url>
+    <loc>https://swissdigitechsolutions.com/about.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- CONTACT US PAGE -->
+  <url>
+    <loc>https://swissdigitechsolutions.com/contact.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

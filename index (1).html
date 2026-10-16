@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>Swiss DigiTech Solutions LLP | Global Digital Agency in Switzerland and India</title>
+  <meta name="description" content="Swiss DigiTech Solutions LLP helps businesses grow online through website development, mobile apps, SEO, branding, and digital marketing services delivered from Switzerland and India." />
+  <meta name="keywords" content="digital agency, web development, mobile app development, SEO, digital marketing, branding, Switzerland, India, Swiss DigiTech Solutions" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://swissdigitechsolutions.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://swissdigitechsolutions.com/" />
+  <meta property="og:title"       content="Swiss DigiTech Solutions LLP | Global Digital Agency" />
+  <meta property="og:description" content="Building strong digital identities for businesses worldwide. Web development, mobile apps, SEO, and digital marketing from Switzerland and India." />
+  <meta property="og:site_name"   content="Swiss DigiTech Solutions LLP" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Swiss DigiTech Solutions LLP | Global Digital Agency" />
+  <meta name="twitter:description" content="Web development, mobile apps, SEO, and digital marketing from Switzerland and India to help your brand scale globally." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Swiss DigiTech Solutions LLP",
+    "description": "A global technology agency based in Switzerland and India, offering web development, mobile app development, SEO, branding, and digital marketing services.",
+    "url": "https://swissdigitechsolutions.com",
+    "areaServed": "Worldwide",
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Switzerland"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Digital Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Design and Development" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile App Development" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Search Engine Optimisation" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital Marketing" } }
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    /* ── HOME-SPECIFIC STYLES ── */
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 60%, #3b82c4 100%);
+      color: var(--white);
+      padding: 110px 5% 100px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-inner { position: relative; }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.24);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 6px 18px;
+      border-radius: 50px;
+      margin-bottom: 26px;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 4.5vw, 3.3rem);
+      font-weight: 800;
+      line-height: 1.18;
+      margin-bottom: 22px;
+      max-width: 840px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero h1 em { color: var(--gold); font-style: normal; }
+    .hero-tagline {
+      font-size: 1.12rem;
+      color: rgba(255,255,255,0.84);
+      max-width: 580px;
+      margin: 0 auto 38px;
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      margin-top: 64px;
+      flex-wrap: wrap;
+      border-top: 1px solid rgba(255,255,255,0.14);
+      padding-top: 40px;
+    }
+    .stat-item { text-align: center; }
+    .stat-num  { font-size: 2rem; font-weight: 800; color: var(--gold); line-height: 1; }
+    .stat-lbl  { font-size: 0.8rem; color: rgba(255,255,255,0.68); margin-top: 5px; }
+
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+    .about-text p { color: var(--text-mid); margin-bottom: 18px; font-size: 1.02rem; }
+    .about-text .flex-btns { margin-top: 28px; }
+    .about-visual {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      border-radius: var(--radius-lg);
+      padding: 44px 36px;
+      color: var(--white);
+    }
+    .av-title { font-size: 1.4rem; font-weight: 800; margin-bottom: 6px; }
+    .av-sub   { font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-bottom: 26px; }
+    .chips    { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.18);
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 5px 13px;
+      border-radius: 50px;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .hero { padding: 72px 5% 64px; }
+      .hero-stats { gap: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo">Swiss DigiTech <span>Solutions</span> LLP</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="contact.html" class="nav-cta">Get In Touch</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">Global Technology Agency</div>
+      <h1>Building Digital Identities That Help <em>Brands Grow</em> Globally</h1>
+      <p class="hero-tagline">
+        Web development, mobile apps, SEO, and digital marketing from Switzerland and India, helping businesses scale and succeed online.
+      </p>
+      <div class="flex-btns" style="justify-content:center;">
+        <a href="#services" class="btn-primary">Explore Our Services</a>
+        <a href="contact.html" class="btn-outline-white">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><div class="stat-num">2</div><div class="stat-lbl">Global Offices</div></div>
+        <div class="stat-item"><div class="stat-num">8+</div><div class="stat-lbl">Core Services</div></div>
+        <div class="stat-item"><div class="stat-num">100%</div><div class="stat-lbl">Client Focused</div></div>
+        <div class="stat-item"><div class="stat-num">24/7</div><div class="stat-lbl">Cross Time Zone Support</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SNIPPET -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-text">
+        <div class="section-label">Who We Are</div>
+        <h2 class="section-title">A Global Technology Agency Built for Growth</h2>
+        <p>Swiss DigiTech Solutions LLP is a global technology agency with offices in Switzerland and India. We help businesses of all sizes build a strong online presence and grow into new markets through modern and affordable digital solutions.</p>
+        <p>Our team brings together experienced professionals in web development, mobile app development, and digital marketing who work together to deliver results that truly make a difference for every client we work with.</p>
+        <p>We take the time to understand your goals before building a strategy around them. Whether you are a startup just getting started or an established brand looking to scale internationally, we have the expertise and the tools to support your growth.</p>
+        <div class="flex-btns">
+          <a href="about.html" class="btn-primary">Learn More About Us</a>
+          <a href="contact.html" class="btn-secondary">Talk to Our Team</a>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="av-title">One Team. Everything You Need.</div>
+        <div class="av-sub">Switzerland and India working together for your global growth</div>
+        <div class="chips">
+          <span class="chip">Website Development</span>
+          <span class="chip">Mobile Apps</span>
+          <span class="chip">SEO</span>
+          <span class="chip">PPC Advertising</span>
+          <span class="chip">Social Media</span>
+          <span class="chip">Branding</span>
+          <span class="chip">Creative Design</span>
+          <span class="chip">Email Marketing</span>
+          <span class="chip">Custom Web Apps</span>
+          <span class="chip">iOS Development</span>
+          <span class="chip">Android Development</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="bg-off">
+    <div class="section-header center">
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-sub">A complete range of digital services designed to help your business grow, scale, and stay competitive online.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🌐</div>
+        <h3>Website Design and Development</h3>
+        <p>We design and develop websites that are fast, visually strong, and easy to navigate, giving your business a powerful online presence that attracts and retains visitors.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">⚙️</div>
+        <h3>Custom Web Applications</h3>
+        <p>We build web applications tailored to your specific business needs, helping you automate processes, manage operations more efficiently, and improve productivity as you grow.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>iOS and Android Mobile App Development</h3>
+        <p>We develop mobile apps for iOS and Android that offer smooth and engaging user experiences, keeping your brand easily accessible to customers on their everyday devices.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔍</div>
+        <h3>Search Engine Optimisation</h3>
+        <p>We optimise your website to rank higher on search engines, helping you attract more organic traffic and making it easier for the right audience to discover your business.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📢</div>
+        <h3>Pay Per Click Advertising</h3>
+        <p>We create and manage targeted paid ad campaigns that put your brand in front of the right people at the right time, delivering fast and measurable results for your business.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💬</div>
+        <h3>Social Media Marketing</h3>
+        <p>We manage your social media presence across platforms, creating content that builds engagement, grows your following, and keeps your brand consistently visible to your target audience.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <h3>Branding and Creative Design</h3>
+        <p>We develop brand identities that are professional, consistent, and memorable, helping your business stand out from the competition and leave a lasting impression on your audience.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">✉️</div>
+        <h3>Email Marketing</h3>
+        <p>We design and manage email campaigns that keep your audience engaged, nurture leads effectively, and encourage repeat business through the right message at the right time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why">
+    <div class="section-header center">
+      <div class="section-label">Why Swiss DigiTech</div>
+      <h2 class="section-title">Why Choose Us</h2>
+      <p class="section-sub">We bring together everything your business needs to grow online, under one roof, with one dedicated team.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <h3>One Agency for Everything</h3>
+        <p>You do not need to work with multiple vendors. We handle web development, app development, and digital marketing all in one place, making the process simpler and more efficient for you.</p>
+      </div>
+      <div class="why-card">
+        <h3>Affordable and Scalable Services</h3>
+        <p>Our services are priced to work for businesses at every stage of growth. As your business grows, our solutions scale alongside it without putting pressure on your budget.</p>
+      </div>
+      <div class="why-card">
+        <h3>Tailored Strategies for Every Client</h3>
+        <p>We do not offer generic solutions. Every strategy we build is customised around your specific business goals, target audience, and industry to deliver the best possible outcomes.</p>
+      </div>
+      <div class="why-card">
+        <h3>Experienced and Dedicated Team</h3>
+        <p>Our team consists of skilled professionals who bring years of experience across development, design, and marketing, ensuring every project is handled with expertise and care.</p>
+      </div>
+      <div class="why-card">
+        <h3>Global Presence and Local Understanding</h3>
+        <p>With offices in Switzerland and India, we combine international reach with a deep understanding of diverse markets, allowing us to serve clients across different regions effectively.</p>
+      </div>
+      <div class="why-card">
+        <h3>Transparent Communication</h3>
+        <p>We keep our clients informed at every stage of the project. You always know what is being done, why it is being done, and what results to expect from the work.</p>
+      </div>
+      <div class="why-card">
+        <h3>Results Focused Approach</h3>
+        <p>Everything we do is aimed at delivering measurable results. From increased website traffic to better conversions, our work is always tied to outcomes that matter to your business.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="bg-dark">
+    <div class="section-header center">
+      <div class="section-label">What You Gain</div>
+      <h2 class="section-title">Benefits of Working With Us</h2>
+      <p class="section-sub">Here is what you can expect when you choose Swiss DigiTech Solutions LLP as your digital partner.</p>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-card"><div class="benefit-number">01</div><h3>Save Time and Resources</h3><p>Working with one agency for all your digital needs saves you the time and effort of managing multiple vendors, keeping everything streamlined and moving in the same direction.</p></div>
+      <div class="benefit-card"><div class="benefit-number">02</div><h3>Get More Value for Your Investment</h3><p>Our services are designed to deliver strong returns. Every solution we provide is built with your business goals in mind to make sure your investment delivers real and measurable results.</p></div>
+      <div class="benefit-card"><div class="benefit-number">03</div><h3>Reach a Global Audience</h3><p>With our expertise in international digital strategies, we help your brand connect with audiences beyond your local market and establish a strong presence in new regions.</p></div>
+      <div class="benefit-card"><div class="benefit-number">04</div><h3>Stay Ahead of Competitors</h3><p>We help you stay visible, relevant, and competitive in your industry by keeping your website, marketing, and digital tools updated and aligned with current trends and best practices.</p></div>
+      <div class="benefit-card"><div class="benefit-number">05</div><h3>Consistent Brand Identity</h3><p>We make sure your brand looks and communicates consistently across your website, social media, and marketing campaigns, building trust and recognition with your audience over time.</p></div>
+      <div class="benefit-card"><div class="benefit-number">06</div><h3>Access to a Skilled and Diverse Team</h3><p>You get access to professionals with expertise across development, design, and marketing, all working together to support your business goals without the cost of hiring in house.</p></div>
+      <div class="benefit-card"><div class="benefit-number">07</div><h3>Flexible Solutions That Grow With You</h3><p>Our services are built to scale alongside your business, so whether you are just starting out or expanding internationally, we always have the right solution ready for your next step.</p></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="bg-off">
+    <div class="section-header center">
+      <div class="section-label">Got Questions</div>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-sub">Answers to the questions we hear most often from businesses looking to work with us.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">What services does Swiss DigiTech Solutions LLP offer?<span class="faq-icon">+</span></div>
+        <div class="faq-answer"><div class="faq-answer-inner">We offer a complete range of digital services including website design and development, custom web applications, iOS and Android mobile app development, SEO, pay per click advertising, social media marketing, branding, creative design, and email marketing.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Where is Swiss DigiTech Solutions LLP based?<span class="faq-icon">+</span></div>
+        <div class="faq-answer"><div class="faq-answer-inner">We are a global technology agency with offices in Switzerland and India. Our dual presence allows us to serve clients across different time zones and regions without any disruption.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Do you work with small businesses or only large companies?<span class="faq-icon">+</span></div>
+        <div class="faq-answer"><div class="faq-answer-inner">We work with businesses of all sizes. Whether you are a startup just getting started or an established company looking to expand internationally, we have solutions that can be tailored to fit your goals and budget.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">How long does it take to complete a project?<span class="faq-icon">+</span></div>
+        <div class="faq-answer"><div class="faq-answer-inner">Project timelines vary depending on the scope and complexity of the work. A standard website can typically be delivered within a few weeks, while larger projects such as custom applications or mobile apps may take longer. We always discuss timelines clearly before starting.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Are your services affordable for growing businesses?<span class="faq-icon">+</span></div>
+        <div class="faq-answer"><div class="faq-answer-inner">Yes. We believe quality digital services should be accessible to businesses at every stage of growth. Our pricing is competitive and our solutions are designed to be scalable so you only pay for what your business actually needs.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">How do I get started with Swiss DigiTech Solutions LLP?<span class="faq-icon">+</span></div>
+        <div class="faq-answer"><div class="faq-answer-inner">Getting started is simple. You can reach out to our team through our contact page, share your requirements, and we will get back to you with the right plan to move forward.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <h2>Ready to Grow Your Business Online?</h2>
+    <p>Get in touch with Swiss DigiTech Solutions LLP today and let our team build the right digital strategy to help your business scale and succeed internationally.</p>
+    <a href="contact.html" class="btn-white">Get In Touch Today</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Swiss DigiTech <span>Solutions</span> LLP</div>
+        <p class="footer-about">A global technology agency based in Switzerland and India, specialising in website development, mobile app development, and digital marketing. We help businesses worldwide build strong digital identities and scale into new markets.</p>
+        <div class="footer-socials">
+          <div class="social-btn">in</div>
+          <div class="social-btn">𝕏</div>
+          <div class="social-btn">f</div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li>Website Development</li>
+          <li>Custom Web Applications</li>
+          <li>Mobile App Development</li>
+          <li>Search Engine Optimisation</li>
+          <li>Pay Per Click Advertising</li>
+          <li>Social Media Marketing</li>
+          <li>Branding and Design</li>
+          <li>Email Marketing</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#why">Why Choose Us</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Swiss DigiTech Solutions LLP. All rights reserved.</span>
+      <span>Switzerland &nbsp;|&nbsp; India &nbsp;|&nbsp; Global</span>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger
+    const ham = document.getElementById('hamburger');
+    const nav = document.getElementById('navLinks');
+    ham.addEventListener('click', () => {
+      ham.classList.toggle('open');
+      nav.classList.toggle('open');
+    });
+    // FAQ
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+  </script>
+</body>
+</html>

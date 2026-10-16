@@ -1,0 +1,14 @@
+# ============================================================
+# Swiss DigiTech Solutions LLP — robots.txt
+# UPDATE the Sitemap URL below to match your actual domain.
+# ============================================================
+
+User-agent: *
+Allow: /
+
+# Block access to any future admin or private folders
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://swissdigitechsolutions.com/sitemap.xml
